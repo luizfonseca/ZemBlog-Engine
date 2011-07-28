@@ -1,4 +1,27 @@
 #{extends 'main.html' /}
-#{set title:'Home' /}
+#{set title:'Home page' /}
 
-<h1>Runes blog</h1>
+#{if frontPost}
+  <div class="main_post">
+    <h1 id="post_title">${frontPost.title}</h1>
+    
+    
+    <div class="post_text">${frontPost.content}</div>
+    
+    <span class="post_author">${frontPost.author.fullname}</span>
+    <span class="post_date">on ${frontPost.postedAt.format('MMM dd')}</span>
+    
+    <div class="post comments">
+      
+      ${frontPost.comments.size() ?: 'no'}
+       comment${frontPost.comments.size().pluralize()}
+      
+      #{if frontPost.comments}
+        , latest by ${frontPost.comments[0].author}
+      #{/if}
+      
+      
+    <div>
+  </div>
+  
+#{/if}

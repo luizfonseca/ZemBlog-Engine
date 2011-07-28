@@ -1,0 +1,994 @@
+27 Jul 2011 12:59:50,768 INFO  ~ Starting /Users/luizfonseca/Projects/javaapps/blog_engine
+27 Jul 2011 12:59:51,628 WARN  ~ You're running Play! in DEV mode
+27 Jul 2011 12:59:51,756 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+27 Jul 2011 12:59:58,735 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+27 Jul 2011 12:59:59,598 INFO  ~ Application 'Blog' is now started !
+27 Jul 2011 13:54:30,999 ERROR ~ 
+
+@678b4kg1j
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/BasicTest.java around line 81)
+The file /test/BasicTest.java could not be compiled. Error raised is : bob cannot be resolved to a variable
+
+play.exceptions.CompilationException: bob cannot be resolved to a variable
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 13:54:42,328 ERROR ~ 
+
+@678b4kg1k
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/BasicTest.java around line 81)
+The file /test/BasicTest.java could not be compiled. Error raised is : Type mismatch: cannot convert from GenericModel.JPAQuery to List&lt;Post>
+
+play.exceptions.CompilationException: Type mismatch: cannot convert from GenericModel.JPAQuery to List<Post>
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 13:54:54,601 ERROR ~ 
+
+@678b4kg1l
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/BasicTest.java around line 81)
+The file /test/BasicTest.java could not be compiled. Error raised is : Type mismatch: cannot convert from GenericModel.JPAQuery to List&lt;Post>
+
+play.exceptions.CompilationException: Type mismatch: cannot convert from GenericModel.JPAQuery to List<Post>
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 13:55:01,145 ERROR ~ 
+
+@678b4kg1m
+Internal Server Error (500) for request GET /@documentation/guide2
+
+Compilation error (In /test/BasicTest.java around line 81)
+The file /test/BasicTest.java could not be compiled. Error raised is : Type mismatch: cannot convert from GenericModel.JPAQuery to List&lt;Post>
+
+play.exceptions.CompilationException: Type mismatch: cannot convert from GenericModel.JPAQuery to List<Post>
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 13:55:34,160 ERROR ~ 
+
+@678b4kg1n
+Internal Server Error (500) for request GET /@documentation/guide2
+
+Compilation error (In /test/BasicTest.java around line 87)
+The file /test/BasicTest.java could not be compiled. Error raised is : bobPosts cannot be resolved
+
+play.exceptions.CompilationException: bobPosts cannot be resolved
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 13:57:56,165 ERROR ~ 
+
+@678b4kg1o
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/BasicTest.java around line 81)
+The file /test/BasicTest.java could not be compiled. Error raised is : Type mismatch: cannot convert from GenericModel.JPAQuery to List&lt;Post>
+
+play.exceptions.CompilationException: Type mismatch: cannot convert from GenericModel.JPAQuery to List<Post>
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 14:05:20,388 ERROR ~ 
+
+@678b4kg1p
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/BasicTest.java around line 80)
+The file /test/BasicTest.java could not be compiled. Error raised is : Type mismatch: cannot convert from GenericModel.JPAQuery to List&lt;Post>
+
+play.exceptions.CompilationException: Type mismatch: cannot convert from GenericModel.JPAQuery to List<Post>
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 14:05:21,268 ERROR ~ 
+
+@678b4kg20
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/BasicTest.java around line 80)
+The file /test/BasicTest.java could not be compiled. Error raised is : Type mismatch: cannot convert from GenericModel.JPAQuery to List&lt;Post>
+
+play.exceptions.CompilationException: Type mismatch: cannot convert from GenericModel.JPAQuery to List<Post>
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 14:06:23,627 ERROR ~ 
+
+@678b4kg21
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/BasicTest.java around line 81)
+The file /test/BasicTest.java could not be compiled. Error raised is : Type mismatch: cannot convert from GenericModel.JPAQuery to List&lt;Post>
+
+play.exceptions.CompilationException: Type mismatch: cannot convert from GenericModel.JPAQuery to List<Post>
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 14:06:54,012 ERROR ~ 
+
+@678b4kg22
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/BasicTest.java around line 87)
+The file /test/BasicTest.java could not be compiled. Error raised is : The method get(int) is undefined for the type Post
+
+play.exceptions.CompilationException: The method get(int) is undefined for the type Post
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 14:07:17,024 ERROR ~ 
+
+@678b4kg23
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/BasicTest.java around line 90)
+The file /test/BasicTest.java could not be compiled. Error raised is : bob cannot be resolved to a variable
+
+play.exceptions.CompilationException: bob cannot be resolved to a variable
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 14:54:10,006 ERROR ~ 
+
+@678b4kg24
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/BasicTest.java around line 120)
+The file /test/BasicTest.java could not be compiled. Error raised is : Invalid character constant
+
+play.exceptions.CompilationException: Invalid character constant
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:474)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 14:54:21,415 ERROR ~ 
+
+@678b4kg25
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The type Post is already defined
+
+play.exceptions.CompilationException: The type Post is already defined
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 14:56:36,722 ERROR ~ 
+
+@678b4kg26
+Internal Server Error (500) for request GET /@documentation/guide2
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The type Post is already defined
+
+play.exceptions.CompilationException: The type Post is already defined
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 14:56:38,774 ERROR ~ 
+
+@678b4kg27
+Internal Server Error (500) for request GET /@documentation/guide1
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The type Post is already defined
+
+play.exceptions.CompilationException: The type Post is already defined
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 14:57:00,214 ERROR ~ 
+
+@678b4kg28
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The type Post is already defined
+
+play.exceptions.CompilationException: The type Post is already defined
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:04:06,993 ERROR ~ 
+
+@678b4kg29
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The type Post is already defined
+
+play.exceptions.CompilationException: The type Post is already defined
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:04:30,281 ERROR ~ 
+
+@678b4kg2a
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The type Post is already defined
+
+play.exceptions.CompilationException: The type Post is already defined
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:10:21,884 ERROR ~ 
+
+@678b4kg2b
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/BasicTest.java around line 135)
+The file /test/BasicTest.java could not be compiled. Error raised is : The method assertNotEquals(String, String) is undefined for the type BasicTest
+
+play.exceptions.CompilationException: The method assertNotEquals(String, String) is undefined for the type BasicTest
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:11:13,181 ERROR ~ 
+
+@678b4kg2c
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The public type Post must be defined in its own file
+
+play.exceptions.CompilationException: The public type Post must be defined in its own file
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:11:45,838 ERROR ~ 
+
+@678b4kg2d
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The public type Post must be defined in its own file
+
+play.exceptions.CompilationException: The public type Post must be defined in its own file
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:15:38,697 ERROR ~ 
+
+@678b4kg2e
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The public type Post must be defined in its own file
+
+play.exceptions.CompilationException: The public type Post must be defined in its own file
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:17:17,428 ERROR ~ 
+
+@678b4kg2f
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The public type Post must be defined in its own file
+
+play.exceptions.CompilationException: The public type Post must be defined in its own file
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:17:19,152 ERROR ~ 
+
+@678b4kg2g
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The public type Post must be defined in its own file
+
+play.exceptions.CompilationException: The public type Post must be defined in its own file
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:17:56,462 ERROR ~ 
+
+@678b4kg2h
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The public type Post must be defined in its own file
+
+play.exceptions.CompilationException: The public type Post must be defined in its own file
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:17:59,311 ERROR ~ 
+
+@678b4kg2i
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The public type Post must be defined in its own file
+
+play.exceptions.CompilationException: The public type Post must be defined in its own file
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:18:18,717 ERROR ~ 
+
+@678b4kg2j
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The public type Post must be defined in its own file
+
+play.exceptions.CompilationException: The public type Post must be defined in its own file
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:18:30,652 ERROR ~ 
+
+@678b4kg2k
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The public type Post must be defined in its own file
+
+play.exceptions.CompilationException: The public type Post must be defined in its own file
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:19:01,800 ERROR ~ 
+
+@678b4kg2l
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 9)
+The file /app/models/post.java could not be compiled. Error raised is : The public type Post must be defined in its own file
+
+play.exceptions.CompilationException: The public type Post must be defined in its own file
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:19:21,915 ERROR ~ 
+
+@678b4kg2m
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 7)
+The file /app/models/post.java could not be compiled. Error raised is : The public type Post must be defined in its own file
+
+play.exceptions.CompilationException: The public type Post must be defined in its own file
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:19:31,236 ERROR ~ 
+
+@678b4kg2n
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/post.java around line 7)
+The file /app/models/post.java could not be compiled. Error raised is : The public type Post must be defined in its own file
+
+play.exceptions.CompilationException: The public type Post must be defined in its own file
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:19:39,906 ERROR ~ 
+
+@678b4kg30
+Internal Server Error (500) for request GET /@tests
+
+Oops: UnexpectedException
+An unexpected error occured caused by exception UnexpectedException: While applying class play.classloading.enhancers.PropertiesEnhancer on models.Comment
+
+play.exceptions.UnexpectedException: While applying play.CorePlugin@21e1962d on models.Comment
+	at play.plugins.PluginCollection.enhance(PluginCollection.java:454)
+	at play.classloading.ApplicationClasses$ApplicationClass.enhance(ApplicationClasses.java:208)
+	at play.classloading.ApplicationClassloader.loadApplicationClass(ApplicationClassloader.java:157)
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:417)
+	at play.Play.start(Play.java:482)
+	at play.Play.detectChanges(Play.java:607)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+Caused by: play.exceptions.UnexpectedException: While applying class play.classloading.enhancers.PropertiesEnhancer on models.Comment
+	at play.CorePlugin.enhance(CorePlugin.java:299)
+	at play.plugins.PluginCollection.enhance(PluginCollection.java:451)
+	... 7 more
+Caused by: play.exceptions.UnexpectedException: Error in PropertiesEnhancer
+	at play.classloading.enhancers.PropertiesEnhancer$1.edit(PropertiesEnhancer.java:172)
+	at javassist.expr.ExprEditor.loopBody(ExprEditor.java:197)
+	at javassist.expr.ExprEditor.doit(ExprEditor.java:90)
+	at javassist.CtBehavior.instrument(CtBehavior.java:618)
+	at play.classloading.enhancers.PropertiesEnhancer.enhanceThisClass(PropertiesEnhancer.java:130)
+	at play.CorePlugin.enhance(CorePlugin.java:296)
+	... 8 more
+Caused by: java.lang.NullPointerException
+	at java.io.ByteArrayInputStream.<init>(ByteArrayInputStream.java:89)
+	at play.classloading.enhancers.Enhancer$ApplicationClassesClasspath.openClassfile(Enhancer.java:71)
+	at javassist.ClassPoolTail.openClassfile(ClassPoolTail.java:335)
+	at javassist.ClassPool.openClassfile(ClassPool.java:594)
+	at javassist.CtClassType.getClassFile2(CtClassType.java:185)
+	at javassist.CtClassType.subtypeOf(CtClassType.java:303)
+	at javassist.compiler.MemberResolver.compareSignature(MemberResolver.java:247)
+	at javassist.compiler.MemberResolver.lookupMethod(MemberResolver.java:119)
+	at javassist.compiler.MemberResolver.lookupMethod(MemberResolver.java:96)
+	at javassist.compiler.TypeChecker.atMethodCallCore(TypeChecker.java:704)
+	at javassist.compiler.TypeChecker.atCallExpr(TypeChecker.java:681)
+	at javassist.compiler.JvstTypeChecker.atCallExpr(JvstTypeChecker.java:156)
+	at javassist.compiler.ast.CallExpr.accept(CallExpr.java:45)
+	at javassist.compiler.CodeGen.doTypeCheck(CodeGen.java:241)
+	at javassist.compiler.CodeGen.atStmnt(CodeGen.java:329)
+	at javassist.compiler.ast.Stmnt.accept(Stmnt.java:49)
+	at javassist.compiler.Javac.compileStmnt(Javac.java:568)
+	at javassist.expr.FieldAccess.replace(FieldAccess.java:209)
+	at play.classloading.enhancers.PropertiesEnhancer$1.edit(PropertiesEnhancer.java:164)
+	... 13 more
+27 Jul 2011 15:19:48,210 ERROR ~ 
+
+@678b4kg31
+Internal Server Error (500) for request GET /@tests
+
+JPA error
+A JPA error occurred (Unable to build EntityManagerFactory): @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+
+play.exceptions.JPAException: Unable to build EntityManagerFactory
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:231)
+	at play.plugins.PluginCollection.onApplicationStart(PluginCollection.java:425)
+	at play.Play.start(Play.java:492)
+	at play.Play.detectChanges(Play.java:607)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:107)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1550)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1473)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildMappings(Configuration.java:1345)
+	at org.hibernate.ejb.Ejb3Configuration.buildMappings(Ejb3Configuration.java:1477)
+	at org.hibernate.ejb.EventListenerConfigurator.configure(EventListenerConfigurator.java:193)
+	at org.hibernate.ejb.Ejb3Configuration.configure(Ejb3Configuration.java:1096)
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:900)
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:229)
+	... 5 more
+27 Jul 2011 15:19:54,166 ERROR ~ 
+
+@678b4kg32
+Internal Server Error (500) for request GET /@tests
+
+JPA error
+A JPA error occurred (Unable to build EntityManagerFactory): @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+
+play.exceptions.JPAException: Unable to build EntityManagerFactory
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:231)
+	at play.plugins.PluginCollection.onApplicationStart(PluginCollection.java:425)
+	at play.Play.start(Play.java:492)
+	at play.Play.detectChanges(Play.java:607)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:107)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1550)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1473)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildMappings(Configuration.java:1345)
+	at org.hibernate.ejb.Ejb3Configuration.buildMappings(Ejb3Configuration.java:1477)
+	at org.hibernate.ejb.EventListenerConfigurator.configure(EventListenerConfigurator.java:193)
+	at org.hibernate.ejb.Ejb3Configuration.configure(Ejb3Configuration.java:1096)
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:900)
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:229)
+	... 5 more
+27 Jul 2011 15:19:55,131 ERROR ~ 
+
+@678b4kg33
+Internal Server Error (500) for request GET /@tests
+
+JPA error
+A JPA error occurred (Unable to build EntityManagerFactory): @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+
+play.exceptions.JPAException: Unable to build EntityManagerFactory
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:231)
+	at play.plugins.PluginCollection.onApplicationStart(PluginCollection.java:425)
+	at play.Play.start(Play.java:492)
+	at play.Play.detectChanges(Play.java:607)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:107)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1550)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1473)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildMappings(Configuration.java:1345)
+	at org.hibernate.ejb.Ejb3Configuration.buildMappings(Ejb3Configuration.java:1477)
+	at org.hibernate.ejb.EventListenerConfigurator.configure(EventListenerConfigurator.java:193)
+	at org.hibernate.ejb.Ejb3Configuration.configure(Ejb3Configuration.java:1096)
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:900)
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:229)
+	... 5 more
+27 Jul 2011 15:20:13,850 ERROR ~ 
+
+@678b4kg34
+Internal Server Error (500) for request GET /@tests
+
+JPA error
+A JPA error occurred (Unable to build EntityManagerFactory): @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+
+play.exceptions.JPAException: Unable to build EntityManagerFactory
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:231)
+	at play.plugins.PluginCollection.onApplicationStart(PluginCollection.java:425)
+	at play.Play.start(Play.java:492)
+	at play.Play.detectChanges(Play.java:607)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:107)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1550)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1473)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildMappings(Configuration.java:1345)
+	at org.hibernate.ejb.Ejb3Configuration.buildMappings(Ejb3Configuration.java:1477)
+	at org.hibernate.ejb.EventListenerConfigurator.configure(EventListenerConfigurator.java:193)
+	at org.hibernate.ejb.Ejb3Configuration.configure(Ejb3Configuration.java:1096)
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:900)
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:229)
+	... 5 more
+27 Jul 2011 15:20:16,446 ERROR ~ 
+
+@678b4kg35
+Internal Server Error (500) for request GET /
+
+JPA error
+A JPA error occurred (Unable to build EntityManagerFactory): @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+
+play.exceptions.JPAException: Unable to build EntityManagerFactory
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:231)
+	at play.plugins.PluginCollection.onApplicationStart(PluginCollection.java:425)
+	at play.Play.start(Play.java:492)
+	at play.Play.detectChanges(Play.java:607)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:107)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1550)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1473)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildMappings(Configuration.java:1345)
+	at org.hibernate.ejb.Ejb3Configuration.buildMappings(Ejb3Configuration.java:1477)
+	at org.hibernate.ejb.EventListenerConfigurator.configure(EventListenerConfigurator.java:193)
+	at org.hibernate.ejb.Ejb3Configuration.configure(Ejb3Configuration.java:1096)
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:900)
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:229)
+	... 5 more
+27 Jul 2011 15:20:19,621 ERROR ~ 
+
+@678b4kg36
+Internal Server Error (500) for request GET /Tests
+
+JPA error
+A JPA error occurred (Unable to build EntityManagerFactory): @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+
+play.exceptions.JPAException: Unable to build EntityManagerFactory
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:231)
+	at play.plugins.PluginCollection.onApplicationStart(PluginCollection.java:425)
+	at play.Play.start(Play.java:492)
+	at play.Play.detectChanges(Play.java:607)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:107)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1550)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1473)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildMappings(Configuration.java:1345)
+	at org.hibernate.ejb.Ejb3Configuration.buildMappings(Ejb3Configuration.java:1477)
+	at org.hibernate.ejb.EventListenerConfigurator.configure(EventListenerConfigurator.java:193)
+	at org.hibernate.ejb.Ejb3Configuration.configure(Ejb3Configuration.java:1096)
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:900)
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:229)
+	... 5 more
+27 Jul 2011 15:20:38,951 ERROR ~ 
+
+@678b4kg37
+Internal Server Error (500) for request GET /Tests
+
+JPA error
+A JPA error occurred (Unable to build EntityManagerFactory): @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+
+play.exceptions.JPAException: Unable to build EntityManagerFactory
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:231)
+	at play.plugins.PluginCollection.onApplicationStart(PluginCollection.java:425)
+	at play.Play.start(Play.java:492)
+	at play.Play.detectChanges(Play.java:607)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on models.Comment.post references an unknown entity: models.Post
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:107)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1550)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1473)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildMappings(Configuration.java:1345)
+	at org.hibernate.ejb.Ejb3Configuration.buildMappings(Ejb3Configuration.java:1477)
+	at org.hibernate.ejb.EventListenerConfigurator.configure(EventListenerConfigurator.java:193)
+	at org.hibernate.ejb.Ejb3Configuration.configure(Ejb3Configuration.java:1096)
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:900)
+	at play.db.jpa.JPAPlugin.onApplicationStart(JPAPlugin.java:229)
+	... 5 more
+27 Jul 2011 15:54:55,642 ERROR ~ 
+
+@678b4kg38
+Internal Server Error (500) for request GET /@documentation/guide2
+
+Compilation error (In /app/models/Post.java around line 18)
+The file /app/models/Post.java could not be compiled. Error raised is : Syntax error on token ";", @ expected
+
+play.exceptions.CompilationException: Syntax error on token ";", @ expected
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:336)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:137)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getType(PackageBinding.java:127)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findType(Scope.java:1536)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getTypeOrPackage(Scope.java:2631)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getType(Scope.java:2328)
+	at org.eclipse.jdt.internal.compiler.ast.SingleTypeReference.getTypeBinding(SingleTypeReference.java:44)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.internalResolveType(TypeReference.java:131)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveType(TypeReference.java:203)
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:138)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:451)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:212)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:410)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1147)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1235)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:540)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:759)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:464)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:55:14,092 ERROR ~ 
+
+@678b4kg39
+Internal Server Error (500) for request GET /@documentation/guide2
+
+Compilation error (In /app/models/Post.java around line 19)
+The file /app/models/Post.java could not be compiled. Error raised is : Syntax error on token "Public", public expected
+
+play.exceptions.CompilationException: Syntax error on token "Public", public expected
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:336)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:137)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getType(PackageBinding.java:127)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findType(Scope.java:1536)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getTypeOrPackage(Scope.java:2631)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getType(Scope.java:2328)
+	at org.eclipse.jdt.internal.compiler.ast.SingleTypeReference.getTypeBinding(SingleTypeReference.java:44)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.internalResolveType(TypeReference.java:131)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveType(TypeReference.java:203)
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:138)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:451)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:212)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:410)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1147)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1235)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:540)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:759)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:464)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:55:20,576 ERROR ~ 
+
+@678b4kg3a
+Internal Server Error (500) for request GET /@documentation/guide2
+
+Compilation error (In /test/BasicTest.java around line 132)
+The file /test/BasicTest.java could not be compiled. Error raised is : user cannot be resolved to a variable
+
+play.exceptions.CompilationException: user cannot be resolved to a variable
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:55:30,106 ERROR ~ 
+
+@678b4kg3b
+Internal Server Error (500) for request GET /@documentation/guide2
+
+Compilation error (In /app/models/Post.java around line 18)
+The file /app/models/Post.java could not be compiled. Error raised is : cascadeType.ALL cannot be resolved to a type
+
+play.exceptions.CompilationException: cascadeType.ALL cannot be resolved to a type
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 15:55:51,874 ERROR ~ 
+
+@678b4kg3c
+Internal Server Error (500) for request GET /@documentation/guide2
+
+Compilation error (In /test/BasicTest.java around line 151)
+The file /test/BasicTest.java could not be compiled. Error raised is : The method first() is undefined for the type List&lt;Comment>
+
+play.exceptions.CompilationException: The method first() is undefined for the type List<Comment>
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 16:08:48,640 ERROR ~ 
+
+@678b4kg3d
+Internal Server Error (500) for request GET /@documentation/guide2
+
+Compilation error (In /app/controllers/Bootstrap.java around line 1)
+The file /app/controllers/Bootstrap.java could not be compiled. Error raised is : The declared package "" does not match the expected package "controllers"
+
+play.exceptions.CompilationException: The declared package "" does not match the expected package "controllers"
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:412)
+	at play.Play.start(Play.java:482)
+	at play.Play.detectChanges(Play.java:607)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 16:08:50,626 ERROR ~ 
+
+@678b4kg3e
+Internal Server Error (500) for request GET /@documentation/guide3
+
+Compilation error (In /app/controllers/Bootstrap.java around line 1)
+The file /app/controllers/Bootstrap.java could not be compiled. Error raised is : The declared package "" does not match the expected package "controllers"
+
+play.exceptions.CompilationException: The declared package "" does not match the expected package "controllers"
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:412)
+	at play.Play.start(Play.java:482)
+	at play.Play.detectChanges(Play.java:607)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 16:09:23,567 ERROR ~ 
+
+@678b4kg3f
+Internal Server Error (500) for request GET /@documentation/guide3
+
+Compilation error (In /app/controllers/Bootstrap.java around line 13)
+The file /app/controllers/Bootstrap.java could not be compiled. Error raised is : This static method cannot hide the instance method from Job
+
+play.exceptions.CompilationException: This static method cannot hide the instance method from Job
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+27 Jul 2011 16:09:37,174 ERROR ~ 
+
+@678b4kg3g
+Internal Server Error (500) for request GET /@documentation/guide3
+
+Compilation error (In /app/controllers/Bootstrap.java around line 16)
+The file /app/controllers/Bootstrap.java could not be compiled. Error raised is : Invalid character constant
+
+play.exceptions.CompilationException: Invalid character constant
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:474)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:592)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
